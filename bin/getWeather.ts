@@ -5,6 +5,7 @@ async function execute() {
     const weatherData = await getWeatherData()
     console.log("Weather data retrieved from the OpenWeatherMap API:")
     console.log(weatherData)
+    console.log("New change")
 }
 
 execute()

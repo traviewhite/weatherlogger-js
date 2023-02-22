@@ -7,6 +7,6 @@ export default async function () {
   return {
       time: moment().format('YYYY-MM-DD HH:mm:ss'),
       temp: weather.data.main.temp,
-      // wind: weather.data.wind.speed
+      wind: weather.data.wind.speed
   }
 }
